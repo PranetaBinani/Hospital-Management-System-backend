@@ -1,0 +1,74 @@
+/* Container for Token Generation */
+.token-generation-container {
+  padding: 20px;
+  background-color: #f4f7fb;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.token-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.token-input {
+  padding: 12px;
+  margin: 10px 0;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.token-button {
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  width: 80%;
+}
+
+.token-button:hover {
+  background-color: #45a049;
+}
+
+.token-info {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.token-info h4 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.token-info p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .token-generation-container {
+    padding: 15px;
+  }
+
+  .token-input,
+  .token-button {
+    width: 90%;
+  }
+}
