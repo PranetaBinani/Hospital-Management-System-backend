@@ -1,4 +1,5 @@
 Hospital Management System
+
 Welcome to the Hospital Management System (HMS), an efficient and easy-to-use platform for managing hospital operations. This system aims to simplify and streamline the management of critical aspects such as bed allocation, doctor appointments, and inventory management in a healthcare facility.
 
 Features
